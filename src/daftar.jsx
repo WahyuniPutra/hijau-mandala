@@ -45,30 +45,25 @@ const App = () => {
             <div className="register-button-text">Daftar</div>
           </div>
           <div className="input-field" style={{ top: '384px' }}>
-            <div className="input-background"></div>
-            <div className="input-label">Konfirmasi Kata Sandi</div>
+            <input className="input-background" type="password" placeholder="Konfirmasi Kata Sandi" />
             <div className="input-icon">
               <div className="input-icon-inner"></div>
             </div>
           </div>
           <div className="input-field" style={{ top: '313px' }}>
-            <div className="input-background"></div>
-            <div className="input-label">Kata Sandi</div>
+            <input className="input-background" type="password" placeholder="Kata Sandi" />
             <div className="input-icon">
               <div className="input-icon-inner"></div>
             </div>
           </div>
           <div className="input-field" style={{ top: '242px' }}>
-            <div className="input-background"></div>
-            <div className="input-label">Nomor Telepon</div>
+            <input className="input-background" type="tel" placeholder="Nomor Telepon" />
           </div>
           <div className="input-field" style={{ top: '171px' }}>
-            <div className="input-background"></div>
-            <div className="input-label">Email</div>
+            <input className="input-background" type="email" placeholder="Email" />
           </div>
           <div className="input-field" style={{ top: '100px' }}>
-            <div className="input-background"></div>
-            <div className="input-label">Nama Lengkap</div>
+            <input className="input-background" type="text" placeholder="Nama Lengkap" />
           </div>
           <div className="description">Daftarkan akun anda agar Anda dapat mengakses akun pribadi Anda.</div>
           <div className="title">Daftar Akun KambingFresh</div>
