@@ -247,6 +247,8 @@
     background: white;
     border-radius: 10px;
     border: 0.50px solid black;
+    color: black;
+    padding-left: 10px;
   }
   
   .input-label {
