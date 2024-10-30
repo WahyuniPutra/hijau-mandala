@@ -231,7 +231,7 @@
     font-weight: 700;
     word-wrap: break-word;
   }
-  
+
   .input-field {
     width: 470px;
     height: 61px;
@@ -278,6 +278,7 @@
     background: #1C274C;
   }
   
+
   .description {
     position: absolute;
     left: 64px;
