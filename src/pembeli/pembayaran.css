@@ -1,0 +1,371 @@
+.container {
+  width: 1440px;
+  height: 1735px;
+  position: relative;
+  background: #F0F3F7;
+}
+
+.footer {
+  width: 1440px;
+  height: 382px;
+  position: absolute;
+  left: 0;
+  top: 1353px;
+  background: #1C464F;
+}
+
+.footer-text {
+  width: 282px;
+  height: 17px;
+  position: absolute;
+  left: 579px;
+  top: 345px;
+  color: white;
+  font-size: 14px;
+  font-family: 'Inter';
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.footer-icon {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 0;
+  top: 2px;
+}
+
+.footer-icon-inner {
+  width: 13.44px;
+  height: 13.44px;
+  position: absolute;
+  left: 0.78px;
+  top: 0.78px;
+  background: white;
+}
+
+.footer-icon-inner-small {
+  width: 4.69px;
+  height: 5.94px;
+  position: absolute;
+  left: 4.53px;
+  top: 4.53px;
+  background: white;
+}
+
+.footer-divider {
+  width: 1200px;
+  height: 0.91px;
+  position: absolute;
+  left: 120px;
+  top: 330px;
+  border: 1px white solid;
+}
+
+.social-media {
+  width: 98px;
+  height: 126px;
+  position: absolute;
+  left: 1122px;
+  top: 165px;
+}
+
+.social-media-text {
+  position: absolute;
+  color: white;
+  font-size: 14px;
+  font-family: 'Inter';
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.social-media-icon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+
+.social-media-icon-background {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  background: white;
+}
+
+.social-media-icon-twitter {
+  background: #1D9BF0;
+}
+
+.social-media-icon-instagram {
+  background: radial-gradient(50.45% 54.24% at 106.23% 76.35%, #FFDD55 0%, #FFDD55 10%, #FF543E 50%, #C837AB 100%);
+}
+
+.social-media-icon-facebook {
+  background: #1877F2;
+}
+
+.social-media-icon-content {
+  width: 16.88px;
+  height: 13.71px;
+  position: absolute;
+  left: 3.56px;
+  top: 5.16px;
+  background: white;
+}
+
+.social-media-title {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: white;
+  font-size: 20px;
+  font-family: 'Inter';
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.contact {
+  width: 171px;
+  height: 85px;
+  position: absolute;
+  left: 1122px;
+  top: 45px;
+}
+
+.contact-title {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: white;
+  font-size: 20px;
+  font-family: 'Inter';
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.contact-content {
+  position: absolute;
+  left: 0;
+  top: 34px;
+  color: white;
+  font-size: 14px;
+  font-family: 'Inter';
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.main-content {
+  width: 975px;
+  height: 218px;
+  position: absolute;
+  left: 55px;
+  top: 1064px;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.product-card {
+  width: 975px;
+  height: 218px;
+  position: absolute;
+  background: white;
+  border-radius: 10px;
+}
+
+.product-card-image {
+  width: 155px;
+  height: 132px;
+  position: absolute;
+  left: 64px;
+  top: 55px;
+  background: linear-gradient(0deg, #777E90 0%, #777E90 100%);
+  border-radius: 10px;
+}
+
+.product-card-title {
+  position: absolute;
+  left: 278px;
+  top: 82px;
+  color: black;
+  font-size: 16px;
+  font-family: 'Inter';
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.product-card-price {
+  width: 124px;
+  height: 44px;
+  padding: 10px;
+  position: absolute;
+  left: 743px;
+  top: 72px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+  color: black;
+  font-size: 16px;
+  font-family: 'Inter';
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.product-card-remove {
+  width: 70px;
+  height: 44px;
+  padding: 10px;
+  position: absolute;
+  left: 894px;
+  top: 72px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+  color: #F80005;
+  font-size: 16px;
+  font-family: 'Inter';
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.product-card-quantity {
+  width: 99px;
+  height: 24px;
+  padding-left: 9px;
+  padding-right: 9px;
+  position: absolute;
+  left: 604px;
+  top: 82px;
+  background: #5DAA80;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 13px;
+  display: inline-flex;
+  color: white;
+  font-size: 16px;
+  font-family: 'Inter';
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.header {
+  width: 1440px;
+  height: 84px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #1C464F;
+}
+
+.header-content {
+  width: 1440px;
+  height: 84px;
+  position: absolute;
+}
+
+.header-text {
+  position: absolute;
+  left: 106px;
+  top: 19px;
+  color: white;
+  font-size: 30px;
+  font-family: 'Righteous';
+  font-weight: 400;
+  line-height: 45px;
+  word-wrap: break-word;
+}
+
+.header-logo {
+  width: 107px;
+  height: 83px;
+  position: absolute;
+  left: 18px;
+  top: 0;
+}
+
+.header-search {
+  width: 595px;
+  height: 45.50px;
+  position: absolute;
+  left: 365px;
+  top: 19px;
+}
+
+.header-search-background {
+  width: 595px;
+  height: 41px;
+  position: absolute;
+  left: 0;
+  top: 2px;
+  background: #D9D9D9;
+  border-radius: 10px;
+}
+
+.header-search-icon {
+  width: 45.50px;
+  height: 45.50px;
+  padding: 10px;
+  position: absolute;
+  left: 4px;
+  top: 0;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-search-icon-inner {
+  width: 25.50px;
+  height: 25.50px;
+  border: 1.50px black solid;
+}
+
+.header-search-text {
+  width: 65px;
+  position: absolute;
+  left: 52px;
+  top: 12px;
+  color: black;
+  font-size: 14px;
+  font-family: 'Inter';
+  font-weight: 400;
+  line-height: 21px;
+  word-wrap: break-word;
+}
+
+.header-profile {
+  height: 55px;
+  padding: 10px;
+  position: absolute;
+  left: 1224px;
+  top: 14px;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 13px;
+}
+
+.header-profile-divider {
+  width: 35px;
+  height: 0;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+  border: 1px white solid;
+}
+
+.header-profile-image {
+  width: 34px;
+  height: 34px;
+  border-radius: 9999px;
+}
+
+.header-profile-text {
+  color: white;
+  font-size: 16px;
+  font-family: 'Inter';
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+}
