@@ -1,0 +1,165 @@
+.container {
+    min-height: 100vh;
+    background: #f5f5f5;
+  }
+  
+  .header {
+    background: #0d9488;
+    color: white;
+    padding: 1rem;
+  }
+  
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header .search-input {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: #1f2937;
+    width: 16rem;
+  }
+  
+  .header .button {
+    color: white;
+  }
+  
+  .hero {
+    background: #fecaca;
+    padding: 4rem 1rem;
+  }
+  
+  .hero .container {
+    max-width: 32rem;
+  }
+  
+  .hero .title {
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .hero .description {
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero .button {
+    background: #0d9488;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+  }
+  
+  .categories,
+  .recommendations,
+  .testimonials {
+    padding: 2rem 1rem;
+  }
+  
+  .categories .title,
+  .recommendations .title,
+  .testimonials .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .categories .grid,
+  .recommendations .grid,
+  .testimonials .grid {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .categories .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  @media (min-width: 768px) {
+    .categories .grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .categories .grid {
+      grid-template-columns: repeat(6, 1fr);
+    }
+  }
+  
+  .category-card,
+  .recommendation-card,
+  .testimonial-card {
+    text-align: center;
+  }
+  
+  .category-card img,
+  .recommendation-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+  }
+  
+  .recommendation-card .price {
+    color: #0d9488;
+    font-weight: bold;
+  }
+  
+  .recommendation-card .discounted-price {
+    color: #0d9488;
+    font-weight: bold;
+  }
+  
+  .testimonial-card .rating {
+    display: flex;
+    gap: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .testimonial-card .text {
+    color: #4b5563;
+    margin-bottom: 1rem;
+  }
+  
+  .footer {
+    background: #0d9488;
+    color: white;
+    padding: 2rem 1rem;
+  }
+  
+  .footer .container {
+    display: grid;
+    gap: 2rem;
+  }
+  
+  .footer .container > div {
+    margin-bottom: 1rem;
+  }
+  
+  .footer .title {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .footer .text {
+    font-size: 0.875rem;
+  }
+  
+  .footer .list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer .list li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer .bottom {
+    border-top: 1px solid #0f766e;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 0.875rem;
+  }
